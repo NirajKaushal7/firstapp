@@ -15,10 +15,7 @@ class Display extends Component {
     this.setState({ display: value });
   };
   
-  isActive = (value) => {
-   var a= this.state.display === value ? 'active' : ''
-    return a;
-  };
+ 
   render() {
     const { display } = this.state;//It is a destructuring assignment from state
      
